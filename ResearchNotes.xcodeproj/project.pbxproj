@@ -18,6 +18,8 @@
 		8A050A2B24FEFDCB00D5222D /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A050A2A24FEFDCB00D5222D /* contacts.json */; };
 		8A050A2D24FEFE9800D5222D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A2C24FEFE9800D5222D /* WebService.swift */; };
 		8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */; };
+		8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */; };
+		8A050A3624FF004400D5222D /* UserDefaultStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		8A050A2A24FEFDCB00D5222D /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
 		8A050A2C24FEFE9800D5222D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWebService.swift; sourceTree = "<group>"; };
+		8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorage.swift; sourceTree = "<group>"; };
+		8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorageTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				8A050A0224FEFB2F00D5222D /* AppDelegate.swift */,
 				8A050A0424FEFB2F00D5222D /* SceneDelegate.swift */,
 				8A050A0624FEFB2F00D5222D /* ContentView.swift */,
+				8A050A3424FEFFFA00D5222D /* Utils */,
 				8A050A0824FEFB3200D5222D /* Assets.xcassets */,
 				8A050A0D24FEFB3200D5222D /* LaunchScreen.storyboard */,
 				8A050A1024FEFB3200D5222D /* Info.plist */,
@@ -113,6 +118,7 @@
 			children = (
 				8A050A1B24FEFB3200D5222D /* Info.plist */,
 				8A050A2824FEFD6000D5222D /* SampleDataTests.swift */,
+				8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */,
 			);
 			path = ResearchNotesTests;
 			sourceTree = "<group>";
@@ -141,6 +147,14 @@
 				8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		8A050A3424FEFFFA00D5222D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +264,7 @@
 				8A050A0524FEFB2F00D5222D /* SceneDelegate.swift in Sources */,
 				8A050A2D24FEFE9800D5222D /* WebService.swift in Sources */,
 				8A050A0724FEFB2F00D5222D /* ContentView.swift in Sources */,
+				8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */,
 				8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A050A3624FF004400D5222D /* UserDefaultStorageTests.swift in Sources */,
 				8A050A2924FEFD6000D5222D /* SampleDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
