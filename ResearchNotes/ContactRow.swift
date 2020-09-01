@@ -7,14 +7,18 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct ContactRow: View {
     var contact: Contact
     
     var body: some View {
         HStack {
-            Image(systemName:"person.crop.circle")
+            WebImage(url: contact.photo)
                 .resizable()
+                .placeholder(Image(systemName:"person.crop.circle"))
+                .transition(.fade(duration: 0.5))
+                .scaledToFit()
                 .aspectRatio(1, contentMode: .fit)
                 .padding()
             Text(contact.fullName)

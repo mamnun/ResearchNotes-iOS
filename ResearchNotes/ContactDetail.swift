@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct ContactDetail: View {
     @ObservedObject var viewModel: ContactDetailViewModel
@@ -20,8 +21,11 @@ struct ContactDetail: View {
                     // stupid hack to stackview.distrbution = fillEqual
                     Spacer()
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-                    Image(systemName:"person.crop.circle")
+                    WebImage(url: viewModel.contact.photo)
                         .resizable()
+                        .placeholder(Image(systemName:"person.crop.circle"))
+                        .transition(.fade(duration: 0.5))
+                        .scaledToFit()
                         .aspectRatio(1, contentMode: .fit)
                     Spacer()
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
