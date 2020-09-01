@@ -65,6 +65,7 @@
 		8A050A4024FF03D700D5222D /* NoteEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteEditor.swift; sourceTree = "<group>"; };
 		8A050A4124FF03D700D5222D /* ContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 		8A050A4524FF042B00D5222D /* NotesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		8A050A4A24FF0D0100D5222D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 		8A0509F624FEFB2F00D5222D = {
 			isa = PBXGroup;
 			children = (
+				8A050A4A24FF0D0100D5222D /* README.md */,
 				8A050A0124FEFB2F00D5222D /* ResearchNotes */,
 				8A050A1824FEFB3200D5222D /* ResearchNotesTests */,
 				8A050A0024FEFB2F00D5222D /* Products */,
