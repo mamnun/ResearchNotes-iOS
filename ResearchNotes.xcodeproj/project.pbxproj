@@ -21,6 +21,8 @@
 		8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */; };
 		8A050A3624FF004400D5222D /* UserDefaultStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */; };
 		8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3724FF01B500D5222D /* ContactRow.swift */; };
+		8A050A3A24FF027300D5222D /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3924FF027300D5222D /* ContactList.swift */; };
+		8A050A3C24FF028600D5222D /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3B24FF028600D5222D /* ContactListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorage.swift; sourceTree = "<group>"; };
 		8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorageTests.swift; sourceTree = "<group>"; };
 		8A050A3724FF01B500D5222D /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		8A050A3924FF027300D5222D /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		8A050A3B24FF028600D5222D /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				8A050A2A24FEFDCB00D5222D /* contacts.json */,
 				8A050A0A24FEFB3200D5222D /* Preview Content */,
 				8A050A3724FF01B500D5222D /* ContactRow.swift */,
+				8A050A3924FF027300D5222D /* ContactList.swift */,
+				8A050A3B24FF028600D5222D /* ContactListViewModel.swift */,
 			);
 			path = ResearchNotes;
 			sourceTree = "<group>";
@@ -267,7 +273,9 @@
 				8A050A0524FEFB2F00D5222D /* SceneDelegate.swift in Sources */,
 				8A050A2D24FEFE9800D5222D /* WebService.swift in Sources */,
 				8A050A0724FEFB2F00D5222D /* ContentView.swift in Sources */,
+				8A050A3C24FF028600D5222D /* ContactListViewModel.swift in Sources */,
 				8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */,
+				8A050A3A24FF027300D5222D /* ContactList.swift in Sources */,
 				8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */,
 				8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */,
 			);
