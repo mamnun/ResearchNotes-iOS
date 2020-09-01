@@ -14,7 +14,7 @@ struct ContactList: View {
     var body: some View {
         NavigationView {
             List(viewModel.contacts) { contact in
-                NavigationLink(destination: Text("detail")) {
+                NavigationLink(destination: ContactDetail(viewModel: ContactDetailViewModel(contact: contact))) {
                     ContactRow(contact: contact)
                         .onAppear {
                             //if this is the last row, load more

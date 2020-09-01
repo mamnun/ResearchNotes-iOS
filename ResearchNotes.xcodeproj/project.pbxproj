@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8A050A0324FEFB2F00D5222D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A0224FEFB2F00D5222D /* AppDelegate.swift */; };
 		8A050A0524FEFB2F00D5222D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A0424FEFB2F00D5222D /* SceneDelegate.swift */; };
-		8A050A0724FEFB2F00D5222D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A0624FEFB2F00D5222D /* ContentView.swift */; };
 		8A050A0924FEFB3200D5222D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A050A0824FEFB3200D5222D /* Assets.xcassets */; };
 		8A050A0C24FEFB3200D5222D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A050A0B24FEFB3200D5222D /* Preview Assets.xcassets */; };
 		8A050A0F24FEFB3200D5222D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A050A0D24FEFB3200D5222D /* LaunchScreen.storyboard */; };
@@ -23,6 +22,11 @@
 		8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3724FF01B500D5222D /* ContactRow.swift */; };
 		8A050A3A24FF027300D5222D /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3924FF027300D5222D /* ContactList.swift */; };
 		8A050A3C24FF028600D5222D /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3B24FF028600D5222D /* ContactListViewModel.swift */; };
+		8A050A3E24FF03C500D5222D /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3D24FF03C500D5222D /* TextView.swift */; };
+		8A050A4224FF03D700D5222D /* ContactDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3F24FF03D700D5222D /* ContactDetailViewModel.swift */; };
+		8A050A4324FF03D700D5222D /* NoteEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A4024FF03D700D5222D /* NoteEditor.swift */; };
+		8A050A4424FF03D700D5222D /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A4124FF03D700D5222D /* ContactDetail.swift */; };
+		8A050A4624FF042B00D5222D /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A4524FF042B00D5222D /* NotesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		8A0509FF24FEFB2F00D5222D /* ResearchNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResearchNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A050A0224FEFB2F00D5222D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A050A0424FEFB2F00D5222D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A050A0624FEFB2F00D5222D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A050A0824FEFB3200D5222D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A050A0B24FEFB3200D5222D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A050A0E24FEFB3200D5222D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +59,11 @@
 		8A050A3724FF01B500D5222D /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 		8A050A3924FF027300D5222D /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		8A050A3B24FF028600D5222D /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		8A050A3D24FF03C500D5222D /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		8A050A3F24FF03D700D5222D /* ContactDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewModel.swift; sourceTree = "<group>"; };
+		8A050A4024FF03D700D5222D /* NoteEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteEditor.swift; sourceTree = "<group>"; };
+		8A050A4124FF03D700D5222D /* ContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
+		8A050A4524FF042B00D5222D /* NotesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,6 @@
 			children = (
 				8A050A0224FEFB2F00D5222D /* AppDelegate.swift */,
 				8A050A0424FEFB2F00D5222D /* SceneDelegate.swift */,
-				8A050A0624FEFB2F00D5222D /* ContentView.swift */,
 				8A050A2424FEFCEE00D5222D /* Network */,
 				8A050A3424FEFFFA00D5222D /* Utils */,
 				8A050A0824FEFB3200D5222D /* Assets.xcassets */,
@@ -110,6 +117,9 @@
 				8A050A3724FF01B500D5222D /* ContactRow.swift */,
 				8A050A3924FF027300D5222D /* ContactList.swift */,
 				8A050A3B24FF028600D5222D /* ContactListViewModel.swift */,
+				8A050A4124FF03D700D5222D /* ContactDetail.swift */,
+				8A050A3F24FF03D700D5222D /* ContactDetailViewModel.swift */,
+				8A050A4024FF03D700D5222D /* NoteEditor.swift */,
 			);
 			path = ResearchNotes;
 			sourceTree = "<group>";
@@ -152,6 +162,7 @@
 		8A050A2E24FEFEB900D5222D /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				8A050A4524FF042B00D5222D /* NotesService.swift */,
 				8A050A2C24FEFE9800D5222D /* WebService.swift */,
 				8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */,
 			);
@@ -161,6 +172,7 @@
 		8A050A3424FEFFFA00D5222D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8A050A3D24FF03C500D5222D /* TextView.swift */,
 				8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */,
 			);
 			path = Utils;
@@ -269,15 +281,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A050A2724FEFD1E00D5222D /* Contact.swift in Sources */,
+				8A050A3E24FF03C500D5222D /* TextView.swift in Sources */,
 				8A050A0324FEFB2F00D5222D /* AppDelegate.swift in Sources */,
+				8A050A4624FF042B00D5222D /* NotesService.swift in Sources */,
 				8A050A0524FEFB2F00D5222D /* SceneDelegate.swift in Sources */,
 				8A050A2D24FEFE9800D5222D /* WebService.swift in Sources */,
-				8A050A0724FEFB2F00D5222D /* ContentView.swift in Sources */,
 				8A050A3C24FF028600D5222D /* ContactListViewModel.swift in Sources */,
+				8A050A4424FF03D700D5222D /* ContactDetail.swift in Sources */,
 				8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */,
 				8A050A3A24FF027300D5222D /* ContactList.swift in Sources */,
 				8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */,
+				8A050A4224FF03D700D5222D /* ContactDetailViewModel.swift in Sources */,
 				8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */,
+				8A050A4324FF03D700D5222D /* NoteEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
