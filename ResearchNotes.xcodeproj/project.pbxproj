@@ -20,6 +20,7 @@
 		8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */; };
 		8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */; };
 		8A050A3624FF004400D5222D /* UserDefaultStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */; };
+		8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A050A3724FF01B500D5222D /* ContactRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		8A050A2F24FEFEC600D5222D /* ContactsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsWebService.swift; sourceTree = "<group>"; };
 		8A050A3124FEFFE300D5222D /* UserDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorage.swift; sourceTree = "<group>"; };
 		8A050A3524FF004400D5222D /* UserDefaultStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStorageTests.swift; sourceTree = "<group>"; };
+		8A050A3724FF01B500D5222D /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,16 +93,17 @@
 		8A050A0124FEFB2F00D5222D /* ResearchNotes */ = {
 			isa = PBXGroup;
 			children = (
-				8A050A2A24FEFDCB00D5222D /* contacts.json */,
-				8A050A2424FEFCEE00D5222D /* Network */,
 				8A050A0224FEFB2F00D5222D /* AppDelegate.swift */,
 				8A050A0424FEFB2F00D5222D /* SceneDelegate.swift */,
 				8A050A0624FEFB2F00D5222D /* ContentView.swift */,
+				8A050A2424FEFCEE00D5222D /* Network */,
 				8A050A3424FEFFFA00D5222D /* Utils */,
 				8A050A0824FEFB3200D5222D /* Assets.xcassets */,
 				8A050A0D24FEFB3200D5222D /* LaunchScreen.storyboard */,
 				8A050A1024FEFB3200D5222D /* Info.plist */,
+				8A050A2A24FEFDCB00D5222D /* contacts.json */,
 				8A050A0A24FEFB3200D5222D /* Preview Content */,
+				8A050A3724FF01B500D5222D /* ContactRow.swift */,
 			);
 			path = ResearchNotes;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				8A050A0724FEFB2F00D5222D /* ContentView.swift in Sources */,
 				8A050A3224FEFFE300D5222D /* UserDefaultStorage.swift in Sources */,
 				8A050A3024FEFEC600D5222D /* ContactsWebService.swift in Sources */,
+				8A050A3824FF01B500D5222D /* ContactRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
